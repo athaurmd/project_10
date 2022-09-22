@@ -230,3 +230,146 @@ body{
     margin-top: 15px;
     margin-left: 33px;
 }
+
+@media screen and (max-width : 500px) {
+    body{
+        background-position:center;
+    }
+    .nav-bar{
+        flex-direction: row;
+        justify-content: space-between  ;
+        margin: auto; 
+    }
+    .logo{
+        position: absolute;
+        left: -20px;
+        top: 5px;
+        height: 12px;
+    }
+    .list-item{
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+    .list-items a{
+        font-size: 9px;
+        margin: 0 10px;
+    }
+    .call-us{
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+    .call-us-logo{
+        height: 20px;
+        margin-top: 15px;
+    }
+    
+    .call-us h3{
+        margin-top: 15px;
+        margin-left: 12px;
+        font-size: 9px;
+    }
+    
+    .line{
+         margin-left: 20px;
+         margin-top:6px;
+    }
+    
+    .middle{
+        margin-top: -100px;
+        height: 75vh;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .heading{
+        font-size: 12px;
+        margin-left: 25px;
+        margin-top: 120px;
+    }
+    .btn{
+        margin-top: 10px;
+        margin-left: 20px;   
+    }
+    .btn > button{
+        padding: 5px 10px 5px 10px ;
+        border-radius: 30px;
+        font-size: 10px;
+    }
+    .top-box{
+        width: 250px;
+        height: 100px;
+        margin-left: 300px;
+        margin-top: -100px;
+    }
+    .box-1{
+        width: 180px;
+        height: 95px;
+    }
+    .ver-pendulum{
+        align-items: center;
+        margin-left: 80px;
+        width: 50px;
+    }
+    .string1{
+        width: 1px;
+        height: 30px;
+    }
+    .bob{
+        width: 10px;
+        height: 10px;
+    } 
+    .puzzle{
+        padding: 5px 25px 5px 25px ;
+        margin-left: 30px;
+        margin-top: 12px;
+    }
+    .puzzle-img{
+        width: 18px;
+        align-content: center;
+        margin-left: -6px;
+    }
+    .box-1 h3{
+        font-size: 10px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .btm-box{
+        width: 250px;
+        height: 100px;
+        margin-top: 12px;
+        margin-left: 95px;
+    }
+    .box-2{
+        width: 180px;
+        height: 95px;
+    }
+    .hor-pendulum{
+        margin-bottom: 35px;
+    }
+    
+    .string2{
+        width: 35px;
+    }
+    
+    .bulb{
+        width: 20px;
+        padding: 5px 25px 5px 25px ;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    .bulb-img{
+        margin-left: -15px;
+        height: 22px;
+    }
+    
+    .box-2 h3{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+}
