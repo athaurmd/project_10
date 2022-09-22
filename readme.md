@@ -10,7 +10,7 @@ background property in CSS
 
 Live link of the project
 
-[Netlify-link](https://interior-designing-homepage.netlify.app/)
+[Netlify-link](https://interior-designing-landing-webpage.netlify.app/)
 
 
 ![output](/images/download%20(1).png)
